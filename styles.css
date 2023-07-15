@@ -64,7 +64,7 @@ section {
 }
 /* ... Other existing styles ... */
 
-.projects-container {
+/*.projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -79,3 +79,25 @@ section {
     width: 100%;
     height: auto;
 }
+*/
+/* ... Other existing styles ... */
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.project {
+    width: calc(33.33% - 20px); /* Adjust this value to create space between the projects */
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
