@@ -62,28 +62,7 @@ section {
 .project a:hover {
     background-color: #555;
 }
-/* ... Other existing styles ... */
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.project {
-    width: 30%; /* Adjust this value to create space between the projects */
-    margin-bottom: 2rem;
-}
-
-.project img {
-    width: 100%;
-    height: auto;
-}
-
-/* ... Other existing styles ... */
-
-.projects-container {
-    display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
@@ -98,6 +77,22 @@ section {
     height: auto;
 }
 
+/* ... Other existing styles ... */
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(33.33% - 10px); /* Adjust this value to create space between the projects */
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
 
 
 
